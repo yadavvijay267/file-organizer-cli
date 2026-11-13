@@ -1,0 +1,43 @@
+Demo folder: /tmp/organizer-demo-t3p4trfv
+Before:
+├── archive.zip
+├── budget-2026.xlsx
+├── holiday-photo.jpg
+├── notes.txt
+├── presentation.pptx
+├── report.pdf
+├── script.py
+└── song.mp3
+
+Organising by extension…
+Moving 8 file(s) in /tmp/organizer-demo-t3p4trfv (by extension):
+  archive.zip  ->  Archives/archive.zip
+  budget-2026.xlsx  ->  Spreadsheets/budget-2026.xlsx
+  holiday-photo.jpg  ->  Images/holiday-photo.jpg
+  notes.txt  ->  Documents/notes.txt
+  presentation.pptx  ->  Presentations/presentation.pptx
+  report.pdf  ->  Documents/report.pdf
+  script.py  ->  Code/script.py
+  song.mp3  ->  Audio/song.mp3
+Done. 8 file(s) organised. Undo with: --undo
+
+After:
+├── Archives
+│   └── archive.zip
+├── Audio
+│   └── song.mp3
+├── Code
+│   └── script.py
+├── Documents
+│   ├── notes.txt
+│   └── report.pdf
+├── Images
+│   └── holiday-photo.jpg
+├── Presentations
+│   └── presentation.pptx
+├── Spreadsheets
+│   └── budget-2026.xlsx
+└── .organizer-undo.json
+
+Demo complete. The organised folder is left at: /tmp/organizer-demo-t3p4trfv
+Run with --undo on that folder to see the undo log in action.

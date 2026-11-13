@@ -1,0 +1,8 @@
+# The organizer itself uses only the Python standard library — no
+# runtime dependencies are needed.
+#
+# Dev/test only:
+pytest>=8.0
+# Optional: enables full YAML config parsing (a built-in fallback
+# parser covers the simple config shape without it).
+PyYAML>=6.0

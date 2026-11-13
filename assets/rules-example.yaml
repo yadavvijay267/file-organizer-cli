@@ -1,0 +1,33 @@
+# Example custom rules for file-organizer-cli
+#
+# Map a folder name to the file extensions that belong in it.
+# Extensions may be written with or without a leading dot.
+# Files whose extension matches no category go into "Other";
+# files with no extension go into "No extension".
+
+Images:
+  - .jpg
+  - .jpeg
+  - .png
+  - .gif
+  - .webp
+
+Documents:
+  - .pdf
+  - .docx
+  - .txt
+  - .md
+
+Audio:
+  - .mp3
+  - .wav
+  - .flac
+
+Video:
+  - .mp4
+  - .mkv
+
+Archives:
+  - .zip
+  - .tar
+  - .gz
